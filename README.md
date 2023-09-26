@@ -26,7 +26,7 @@ To install and play around with this package, you will need to:
 
 5. You are now ready to run the program, which will simulate a cart-pole system balancing its pendulum upright. Hit `Backspace` in the terminal to exit the package manager, and run the code with
 
-        julia> include("src/main.jl")
+        julia> include("src/cartpole_lqr.jl")
 
     after it compiles everything, you should now see a cart-pole system balancing on your screen.
 
