@@ -1,5 +1,5 @@
 using LinearAlgebra
-using MatrixEquations: ared
+using MatrixEquations
 using MuJoCo
 import MuJoCo.NamedAccess as mj
 

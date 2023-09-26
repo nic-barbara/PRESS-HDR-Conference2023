@@ -30,7 +30,20 @@ To install and play around with this package, you will need to:
 
     after it compiles everything, you should now see a cart-pole system balancing on your screen.
 
-6. Have fun with it! Press `F1` to see the menu of available options. A particularly fun experiment is to double-click on the pole to select it, then right-click+CTRL to apply a force. See if it remains balanced!
+6. Have fun with it! Press `F1` to see the menu of available options. Some useful button/mouse combos are:
+    - Press `CTRL+RightArrow` (or `CMD` for Mac) to turn on the controller
+    - Press `SPACE` to pause/un-pause
+    - Double-click on an object select it
+    - `CTRL+RightClick` to apply a force
+    - Press `ESC` to exit the simulation
+
+7. If you're keen on exploring [MuJoCo.jl](https://github.com/JamieMair/MuJoCo.jl), try running a more complex experiment with the MuJoCo humanoid model using
+
+        julia> include("src/humanoid_lqr.jl")
+
+    and play around with it in exactly the same way as the cart-pole model.
+
+8. To close Julia, navigate back to the terminal and type `exit()`.
 
 ## Contact
 
