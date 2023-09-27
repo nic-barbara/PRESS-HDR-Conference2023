@@ -1,6 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.9.2"
+julia_version = "1.9.3"
 manifest_format = "2.0"
 project_hash = "e70592041fe135cd907cd3be35611319c7c89d7f"
 
@@ -283,7 +283,7 @@ version = "2022.10.11"
 deps = ["CEnum", "MuJoCo_jll", "TestItemRunner", "UnsafeArrays"]
 git-tree-sha1 = "c5018fcbeab1fc23f3017edbc07ad3707c8542e4"
 repo-rev = "example/humanoid-lqr"
-repo-url = "git@github.com:JamieMair/MuJoCo.jl.git"
+repo-url = "https://github.com/JamieMair/MuJoCo.jl.git"
 uuid = "1c101251-5e0f-4746-b44c-0728d433b68a"
 version = "0.1.0"
 
