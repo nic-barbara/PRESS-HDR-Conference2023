@@ -11,6 +11,9 @@ and follow the prompts in your terminal. For Windows, use
 
     winget install julia -s msstore
 
+
+## Basic Usage
+
 To play around with Julia, do the following:
 
 1. Open a terminal and navigate to the directory in which you cloned the repository. Start up a Julia session by typing `julia` in your terminal.
